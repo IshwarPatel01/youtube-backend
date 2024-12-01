@@ -1,16 +1,25 @@
 {
   "name": "youtube-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "format": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["backend", "nodejs", "youtube"],
+  "author": "Your Name",
   "license": "ISC",
-  "description": "",
+  "description": "A backend project for a YouTube-like application.",
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "trailingComma": "es5"
   }
 }
