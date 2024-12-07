@@ -22,26 +22,6 @@ connectDB()
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // //1st Approch
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants";
