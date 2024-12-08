@@ -2,9 +2,11 @@
 // database is always in another continent (use async await)
 // require('dotenv').config({path: "./env"})
 import dotenv from "dotenv"
-
+import express from "express"
+const app = express()
 // 2nd approach
 import connectDB from "./db/index.js";
+
 
 dotenv.config({
     path: "./env"
